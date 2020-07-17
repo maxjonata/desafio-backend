@@ -1,0 +1,701 @@
+[{
+    "id": 1,
+    "statement": "Etiam faucibus cursus urna. Ut tellus.",
+    "text": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "created_at": "2020-07-19 20:44:57",
+    "updated_at": "2020-07-25 00:18:13"
+  },
+  {
+    "id": 2,
+    "statement": "Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
+    "text": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+    "created_at": "2020-07-01 17:43:43",
+    "updated_at": "2020-07-02 11:49:01"
+  },
+  {
+    "id": 3,
+    "statement": "Vestibulum rutrum rutrum neque.",
+    "text": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+    "created_at": "2020-07-29 03:53:51",
+    "updated_at": "2020-07-22 02:37:12"
+  },
+  {
+    "id": 4,
+    "statement": "In congue. Etiam justo.",
+    "text": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "created_at": "2020-07-01 09:19:09",
+    "updated_at": "2020-07-28 18:37:59"
+  },
+  {
+    "id": 5,
+    "statement": "Aliquam erat volutpat.",
+    "text": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+    "created_at": "2020-07-29 17:34:59",
+    "updated_at": "2020-07-30 13:24:43"
+  },
+  {
+    "id": 6,
+    "statement": "Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "text": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+    "created_at": "2020-07-05 20:43:05",
+    "updated_at": "2020-07-07 00:54:07"
+  },
+  {
+    "id": 7,
+    "statement": "Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "text": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+    "created_at": "2020-07-09 13:19:49",
+    "updated_at": "2020-07-06 16:26:16"
+  },
+  {
+    "id": 8,
+    "statement": "Etiam justo. Etiam pretium iaculis justo.",
+    "text": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+    "created_at": "2020-07-19 13:15:38",
+    "updated_at": "2020-07-22 18:15:41"
+  },
+  {
+    "id": 9,
+    "statement": "Sed sagittis.",
+    "text": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "created_at": "2020-07-21 08:42:56",
+    "updated_at": "2020-07-22 16:29:40"
+  },
+  {
+    "id": 10,
+    "statement": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
+    "text": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "created_at": "2020-07-12 23:44:16",
+    "updated_at": "2020-07-26 06:08:18"
+  },
+  {
+    "id": 11,
+    "statement": "Duis aliquam convallis nunc.",
+    "text": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+    "created_at": "2020-07-03 17:00:41",
+    "updated_at": "2020-07-26 00:35:45"
+  },
+  {
+    "id": 12,
+    "statement": "Nunc rhoncus dui vel sem. Sed sagittis.",
+    "text": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "created_at": "2020-07-29 19:26:28",
+    "updated_at": "2020-07-17 23:48:32"
+  },
+  {
+    "id": 13,
+    "statement": "Donec posuere metus vitae ipsum.",
+    "text": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+    "created_at": "2020-07-25 13:46:16",
+    "updated_at": "2020-07-07 01:23:43"
+  },
+  {
+    "id": 14,
+    "statement": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.",
+    "text": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+    "created_at": "2020-07-21 23:40:26",
+    "updated_at": "2020-07-17 07:39:42"
+  },
+  {
+    "id": 15,
+    "statement": "Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "text": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+    "created_at": "2020-07-12 14:55:28",
+    "updated_at": "2020-07-09 11:25:16"
+  },
+  {
+    "id": 16,
+    "statement": "Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
+    "text": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+    "created_at": "2020-07-15 21:49:57",
+    "updated_at": "2020-07-02 01:27:11"
+  },
+  {
+    "id": 17,
+    "statement": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",
+    "text": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+    "created_at": "2020-07-16 07:05:09",
+    "updated_at": "2020-07-05 15:40:10"
+  },
+  {
+    "id": 18,
+    "statement": "Morbi porttitor lorem id ligula.",
+    "text": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+    "created_at": "2020-07-08 15:48:55",
+    "updated_at": "2020-07-26 18:30:11"
+  },
+  {
+    "id": 19,
+    "statement": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.",
+    "text": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+    "created_at": "2020-07-20 13:33:43",
+    "updated_at": "2020-07-21 06:08:31"
+  },
+  {
+    "id": 20,
+    "statement": "Aenean fermentum.",
+    "text": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "created_at": "2020-07-15 23:11:22",
+    "updated_at": "2020-07-13 23:41:54"
+  },
+  {
+    "id": 21,
+    "statement": "In quis justo. Maecenas rhoncus aliquam lacus.",
+    "text": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+    "created_at": "2020-07-24 15:37:30",
+    "updated_at": "2020-07-03 11:03:50"
+  },
+  {
+    "id": 22,
+    "statement": "Maecenas rhoncus aliquam lacus.",
+    "text": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+    "created_at": "2020-07-04 17:54:11",
+    "updated_at": "2020-07-23 18:53:23"
+  },
+  {
+    "id": 23,
+    "statement": "Cras non velit nec nisi vulputate nonummy.",
+    "text": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "created_at": "2020-07-17 02:39:21",
+    "updated_at": "2020-07-28 11:35:46"
+  },
+  {
+    "id": 24,
+    "statement": "Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+    "text": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+    "created_at": "2020-07-13 18:01:47",
+    "updated_at": "2020-07-01 06:14:25"
+  },
+  {
+    "id": 25,
+    "statement": "Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "text": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "created_at": "2020-07-03 05:48:55",
+    "updated_at": "2020-07-26 05:34:53"
+  },
+  {
+    "id": 26,
+    "statement": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus.",
+    "text": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+    "created_at": "2020-07-22 07:37:28",
+    "updated_at": "2020-07-28 05:11:33"
+  },
+  {
+    "id": 27,
+    "statement": "Donec ut mauris eget massa tempor convallis.",
+    "text": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+    "created_at": "2020-07-12 05:45:35",
+    "updated_at": "2020-07-05 11:54:16"
+  },
+  {
+    "id": 28,
+    "statement": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.",
+    "text": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+    "created_at": "2020-07-08 15:47:55",
+    "updated_at": "2020-07-09 02:20:38"
+  },
+  {
+    "id": 29,
+    "statement": "Nulla ut erat id mauris vulputate elementum. Nullam varius.",
+    "text": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+    "created_at": "2020-07-08 00:33:53",
+    "updated_at": "2020-07-23 04:05:31"
+  },
+  {
+    "id": 30,
+    "statement": "Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
+    "text": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+    "created_at": "2020-07-21 14:59:45",
+    "updated_at": "2020-07-05 04:53:43"
+  },
+  {
+    "id": 31,
+    "statement": "Proin interdum mauris non ligula pellentesque ultrices.",
+    "text": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "created_at": "2020-07-11 15:04:34",
+    "updated_at": "2020-07-11 11:38:47"
+  },
+  {
+    "id": 32,
+    "statement": "Nullam varius. Nulla facilisi.",
+    "text": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+    "created_at": "2020-07-09 07:29:27",
+    "updated_at": "2020-07-27 01:46:01"
+  },
+  {
+    "id": 33,
+    "statement": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
+    "text": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+    "created_at": "2020-07-05 22:30:35",
+    "updated_at": "2020-07-18 03:20:31"
+  },
+  {
+    "id": 34,
+    "statement": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "text": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+    "created_at": "2020-07-03 13:10:11",
+    "updated_at": "2020-07-06 09:26:24"
+  },
+  {
+    "id": 35,
+    "statement": "Pellentesque ultrices mattis odio. Donec vitae nisi.",
+    "text": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+    "created_at": "2020-07-22 06:08:18",
+    "updated_at": "2020-07-06 08:56:27"
+  },
+  {
+    "id": 36,
+    "statement": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
+    "text": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+    "created_at": "2020-07-06 09:09:55",
+    "updated_at": "2020-07-23 00:54:51"
+  },
+  {
+    "id": 37,
+    "statement": "Vivamus tortor.",
+    "text": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+    "created_at": "2020-07-05 14:56:13",
+    "updated_at": "2020-07-01 01:50:58"
+  },
+  {
+    "id": 38,
+    "statement": "Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
+    "text": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "created_at": "2020-07-02 03:50:52",
+    "updated_at": "2020-07-27 19:33:53"
+  },
+  {
+    "id": 39,
+    "statement": "Vivamus vestibulum sagittis sapien.",
+    "text": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+    "created_at": "2020-07-05 22:18:37",
+    "updated_at": "2020-07-24 11:48:23"
+  },
+  {
+    "id": 40,
+    "statement": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+    "text": "Fusce consequat. Nulla nisl. Nunc nisl.",
+    "created_at": "2020-07-17 19:51:29",
+    "updated_at": "2020-07-20 02:16:50"
+  },
+  {
+    "id": 41,
+    "statement": "Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
+    "text": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "created_at": "2020-07-18 19:04:50",
+    "updated_at": "2020-07-22 19:37:52"
+  },
+  {
+    "id": 42,
+    "statement": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
+    "text": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+    "created_at": "2020-07-05 18:12:33",
+    "updated_at": "2020-07-24 12:33:32"
+  },
+  {
+    "id": 43,
+    "statement": "Phasellus in felis. Donec semper sapien a libero.",
+    "text": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+    "created_at": "2020-07-19 01:11:44",
+    "updated_at": "2020-07-17 19:05:56"
+  },
+  {
+    "id": 44,
+    "statement": "Phasellus sit amet erat.",
+    "text": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+    "created_at": "2020-07-16 20:27:35",
+    "updated_at": "2020-07-24 12:26:26"
+  },
+  {
+    "id": 45,
+    "statement": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
+    "text": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "created_at": "2020-07-29 09:46:50",
+    "updated_at": "2020-07-05 19:11:17"
+  },
+  {
+    "id": 46,
+    "statement": "Aenean auctor gravida sem.",
+    "text": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+    "created_at": "2020-07-09 10:57:05",
+    "updated_at": "2020-07-13 03:11:12"
+  },
+  {
+    "id": 47,
+    "statement": "Cras pellentesque volutpat dui.",
+    "text": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
+    "created_at": "2020-07-19 06:37:27",
+    "updated_at": "2020-07-05 03:19:24"
+  },
+  {
+    "id": 48,
+    "statement": "Suspendisse potenti.",
+    "text": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+    "created_at": "2020-07-24 20:30:33",
+    "updated_at": "2020-07-29 00:17:05"
+  },
+  {
+    "id": 49,
+    "statement": "Praesent blandit. Nam nulla.",
+    "text": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "created_at": "2020-07-15 18:34:22",
+    "updated_at": "2020-07-23 02:18:31"
+  },
+  {
+    "id": 50,
+    "statement": "Praesent lectus.",
+    "text": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+    "created_at": "2020-07-14 01:10:51",
+    "updated_at": "2020-07-07 14:59:38"
+  },
+  {
+    "id": 51,
+    "statement": "Aenean auctor gravida sem.",
+    "text": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "created_at": "2020-07-23 07:28:43",
+    "updated_at": "2020-07-16 16:59:57"
+  },
+  {
+    "id": 52,
+    "statement": "Sed sagittis.",
+    "text": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "created_at": "2020-07-08 10:39:56",
+    "updated_at": "2020-07-11 12:18:21"
+  },
+  {
+    "id": 53,
+    "statement": "Aenean sit amet justo. Morbi ut odio.",
+    "text": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+    "created_at": "2020-07-04 23:47:47",
+    "updated_at": "2020-07-08 20:46:52"
+  },
+  {
+    "id": 54,
+    "statement": "In hac habitasse platea dictumst.",
+    "text": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+    "created_at": "2020-07-21 06:53:12",
+    "updated_at": "2020-07-17 04:49:24"
+  },
+  {
+    "id": 55,
+    "statement": "Integer a nibh. In quis justo.",
+    "text": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "created_at": "2020-07-14 13:28:07",
+    "updated_at": "2020-07-05 15:51:31"
+  },
+  {
+    "id": 56,
+    "statement": "Donec semper sapien a libero.",
+    "text": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+    "created_at": "2020-07-15 14:56:30",
+    "updated_at": "2020-07-11 18:10:04"
+  },
+  {
+    "id": 57,
+    "statement": "Nullam molestie nibh in lectus.",
+    "text": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+    "created_at": "2020-07-22 02:38:25",
+    "updated_at": "2020-07-07 21:12:17"
+  },
+  {
+    "id": 58,
+    "statement": "Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",
+    "text": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "created_at": "2020-07-06 06:20:08",
+    "updated_at": "2020-07-28 20:12:35"
+  },
+  {
+    "id": 59,
+    "statement": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
+    "text": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "created_at": "2020-07-12 07:38:19",
+    "updated_at": "2020-07-03 13:36:06"
+  },
+  {
+    "id": 60,
+    "statement": "Quisque ut erat.",
+    "text": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+    "created_at": "2020-07-02 21:55:18",
+    "updated_at": "2020-07-15 01:13:18"
+  },
+  {
+    "id": 61,
+    "statement": "Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
+    "text": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+    "created_at": "2020-07-10 15:18:42",
+    "updated_at": "2020-07-29 07:33:13"
+  },
+  {
+    "id": 62,
+    "statement": "Mauris sit amet eros.",
+    "text": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "created_at": "2020-07-21 08:23:20",
+    "updated_at": "2020-07-08 08:47:15"
+  },
+  {
+    "id": 63,
+    "statement": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
+    "text": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+    "created_at": "2020-07-30 18:45:10",
+    "updated_at": "2020-07-14 11:25:32"
+  },
+  {
+    "id": 64,
+    "statement": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
+    "text": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+    "created_at": "2020-07-26 04:55:05",
+    "updated_at": "2020-07-10 07:48:52"
+  },
+  {
+    "id": 65,
+    "statement": "Proin eu mi. Nulla ac enim.",
+    "text": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+    "created_at": "2020-07-15 19:55:19",
+    "updated_at": "2020-07-01 02:43:56"
+  },
+  {
+    "id": 66,
+    "statement": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",
+    "text": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "created_at": "2020-07-12 15:43:27",
+    "updated_at": "2020-07-28 02:00:47"
+  },
+  {
+    "id": 67,
+    "statement": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",
+    "text": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+    "created_at": "2020-07-21 12:02:36",
+    "updated_at": "2020-07-09 18:00:12"
+  },
+  {
+    "id": 68,
+    "statement": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "text": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "created_at": "2020-07-03 18:01:38",
+    "updated_at": "2020-07-13 14:57:41"
+  },
+  {
+    "id": 69,
+    "statement": "Duis mattis egestas metus. Aenean fermentum.",
+    "text": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "created_at": "2020-07-17 08:22:58",
+    "updated_at": "2020-07-24 16:37:29"
+  },
+  {
+    "id": 70,
+    "statement": "Pellentesque ultrices mattis odio.",
+    "text": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "created_at": "2020-07-25 20:11:13",
+    "updated_at": "2020-07-21 15:56:54"
+  },
+  {
+    "id": 71,
+    "statement": "Integer tincidunt ante vel ipsum.",
+    "text": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+    "created_at": "2020-07-08 21:52:40",
+    "updated_at": "2020-07-14 13:01:21"
+  },
+  {
+    "id": 72,
+    "statement": "Proin eu mi. Nulla ac enim.",
+    "text": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+    "created_at": "2020-07-11 20:01:31",
+    "updated_at": "2020-07-18 03:31:59"
+  },
+  {
+    "id": 73,
+    "statement": "Suspendisse potenti.",
+    "text": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "created_at": "2020-07-25 09:51:37",
+    "updated_at": "2020-07-24 12:56:27"
+  },
+  {
+    "id": 74,
+    "statement": "Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+    "text": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+    "created_at": "2020-07-28 19:20:23",
+    "updated_at": "2020-07-24 19:05:30"
+  },
+  {
+    "id": 75,
+    "statement": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
+    "text": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "created_at": "2020-07-24 10:41:41",
+    "updated_at": "2020-07-17 18:41:32"
+  },
+  {
+    "id": 76,
+    "statement": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",
+    "text": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+    "created_at": "2020-07-21 20:48:35",
+    "updated_at": "2020-07-24 21:18:58"
+  },
+  {
+    "id": 77,
+    "statement": "Pellentesque ultrices mattis odio. Donec vitae nisi.",
+    "text": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+    "created_at": "2020-07-14 03:08:34",
+    "updated_at": "2020-07-22 10:25:02"
+  },
+  {
+    "id": 78,
+    "statement": "Proin interdum mauris non ligula pellentesque ultrices.",
+    "text": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+    "created_at": "2020-07-23 23:12:56",
+    "updated_at": "2020-07-09 11:03:46"
+  },
+  {
+    "id": 79,
+    "statement": "Vivamus tortor. Duis mattis egestas metus.",
+    "text": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+    "created_at": "2020-07-05 01:31:15",
+    "updated_at": "2020-07-02 22:23:50"
+  },
+  {
+    "id": 80,
+    "statement": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
+    "text": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+    "created_at": "2020-07-12 01:59:49",
+    "updated_at": "2020-07-11 04:14:30"
+  },
+  {
+    "id": 81,
+    "statement": "In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",
+    "text": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+    "created_at": "2020-07-01 10:45:31",
+    "updated_at": "2020-07-13 05:05:06"
+  },
+  {
+    "id": 82,
+    "statement": "Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
+    "text": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+    "created_at": "2020-07-28 22:17:59",
+    "updated_at": "2020-07-20 00:54:53"
+  },
+  {
+    "id": 83,
+    "statement": "Mauris ullamcorper purus sit amet nulla.",
+    "text": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+    "created_at": "2020-07-14 03:28:09",
+    "updated_at": "2020-07-12 15:54:23"
+  },
+  {
+    "id": 84,
+    "statement": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.",
+    "text": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.",
+    "created_at": "2020-07-08 10:02:01",
+    "updated_at": "2020-07-28 10:10:12"
+  },
+  {
+    "id": 85,
+    "statement": "Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
+    "text": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "created_at": "2020-07-21 07:43:43",
+    "updated_at": "2020-07-23 07:17:21"
+  },
+  {
+    "id": 86,
+    "statement": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
+    "text": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+    "created_at": "2020-07-26 01:42:54",
+    "updated_at": "2020-07-11 06:08:07"
+  },
+  {
+    "id": 87,
+    "statement": "Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "text": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+    "created_at": "2020-07-24 15:29:40",
+    "updated_at": "2020-07-12 09:42:58"
+  },
+  {
+    "id": 88,
+    "statement": "Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+    "text": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "created_at": "2020-07-01 22:02:52",
+    "updated_at": "2020-07-11 23:27:09"
+  },
+  {
+    "id": 89,
+    "statement": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",
+    "text": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "created_at": "2020-07-02 03:57:12",
+    "updated_at": "2020-07-17 06:02:09"
+  },
+  {
+    "id": 90,
+    "statement": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
+    "text": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+    "created_at": "2020-07-01 05:36:25",
+    "updated_at": "2020-07-15 14:24:18"
+  },
+  {
+    "id": 91,
+    "statement": "Morbi a ipsum. Integer a nibh.",
+    "text": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "created_at": "2020-07-04 12:43:11",
+    "updated_at": "2020-07-13 03:14:43"
+  },
+  {
+    "id": 92,
+    "statement": "Maecenas pulvinar lobortis est. Phasellus sit amet erat.",
+    "text": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+    "created_at": "2020-07-14 10:11:30",
+    "updated_at": "2020-07-04 06:16:00"
+  },
+  {
+    "id": 93,
+    "statement": "Suspendisse potenti.",
+    "text": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+    "created_at": "2020-07-04 13:39:43",
+    "updated_at": "2020-07-03 21:15:35"
+  },
+  {
+    "id": 94,
+    "statement": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+    "text": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "created_at": "2020-07-07 21:08:23",
+    "updated_at": "2020-07-26 12:11:05"
+  },
+  {
+    "id": 95,
+    "statement": "Nulla suscipit ligula in lacus.",
+    "text": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+    "created_at": "2020-07-02 13:27:17",
+    "updated_at": "2020-07-17 23:15:06"
+  },
+  {
+    "id": 96,
+    "statement": "Donec semper sapien a libero. Nam dui.",
+    "text": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "created_at": "2020-07-06 02:56:24",
+    "updated_at": "2020-07-19 10:43:28"
+  },
+  {
+    "id": 97,
+    "statement": "Pellentesque viverra pede ac diam.",
+    "text": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.",
+    "created_at": "2020-07-04 23:38:13",
+    "updated_at": "2020-07-07 16:26:04"
+  },
+  {
+    "id": 98,
+    "statement": "Nulla nisl. Nunc nisl.",
+    "text": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+    "created_at": "2020-07-16 03:55:41",
+    "updated_at": "2020-07-14 09:04:54"
+  },
+  {
+    "id": 99,
+    "statement": "Quisque ut erat.",
+    "text": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+    "created_at": "2020-07-09 19:35:29",
+    "updated_at": "2020-07-15 03:19:38"
+  },
+  {
+    "id": 100,
+    "statement": "Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "text": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+    "created_at": "2020-07-03 03:36:56",
+    "updated_at": "2020-07-05 07:42:11"
+  }
+]
