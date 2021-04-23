@@ -1,4 +1,4 @@
-require_relative 'questions'
+require './Organizer/Questions.rb'
 
 if __FILE__ == $0
 

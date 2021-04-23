@@ -1,7 +1,8 @@
-require_relative 'File'
+require_relative './FileUser.rb'
 
 class Questions
-    extend File
+    
+    include FileUser
 
     def initialize(questionFilePath, accessFilePath)
 
