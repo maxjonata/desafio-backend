@@ -1,27 +1,58 @@
 require_relative './FileUser.rb'
+require 'date'
+require 'daru'
 
 class Questions
     
     include FileUser
 
     def initialize(questionFilePath, accessFilePath)
-
-    end
-
-    def getQuestionMatrix()
-
-    end
-
-    def fillMatrix()
-        
+        @questionFilePath = questionFilePath
+        @accessFilePath = accessFilePath
+        self.fillMatrix
     end
 
     def mostAccessedDisciplines(lastHours = 24)
-
+        
     end
 
-    def mostAccessedQuestions(timeRange = 'week')
+    def mostAccessedQuestions(timeRange = 'week')        
+        now = DateTime.now
+        days = case timeRange
+        when 'week'
+            7
+        when 'month'
+            30
+        when 'year'
+            365
+        end     
         
+        questionsWithTotalAccess = @questions.filter_map do |questionItem|
+            questionItem["totalAccess"] = questionItem["access"].reduce(0) do |sum,hash|
+                if ( (now - hash["date"]) <= days )
+                    sum + hash["times_accessed"]
+                else
+                    0
+                end
+            end
+            if questionItem["totalAccess"] > 0 then questionItem end
+        end
+        return questionsWithTotalAccess.sort { |a,b| -(a["totalAccess"] <=> b["totalAccess"])}
+    end
+
+    private
+
+    def fillMatrix()
+        questions = self.fetchJson(@questionFilePath)
+        access = self.fetchJson(@accessFilePath)
+        @questions = questions.map do |questionItem|
+            questionItem["access"] = access.filter_map do |accessItem|
+                if(accessItem["question_id"] == questionItem["id"])
+                    {"date"=>DateTime.parse(accessItem["date"]), "times_accessed"=>accessItem["times_accessed"]}
+                end
+            end
+            questionItem
+        end
     end
 
 end
