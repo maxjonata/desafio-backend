@@ -13,12 +13,12 @@ class Questions
     end
 
     def mostAccessedDisciplines(lastHours = 24)
-        
+        filterQuestionsByDays((lastHours / 24))
     end
 
     def mostAccessedQuestions(timeRange = 'week')        
-        now = DateTime.now
         days = case timeRange
+
         when 'week'
             7
         when 'month'
@@ -27,7 +27,17 @@ class Questions
             365
         end     
         
-        questionsWithTotalAccess = @questions.filter_map do |questionItem|
+        questionsWithTotalAccess = filterQuestionsByDays(days)
+        
+        return questionsWithTotalAccess.sort { |a,b| -(a["totalAccess"] <=> b["totalAccess"])}
+    end
+
+    private
+
+    def filterQuestionsByDays(days)
+        now = DateTime.now
+
+        result = @questions.filter_map do |questionItem|
             questionItem["totalAccess"] = questionItem["access"].reduce(0) do |sum,hash|
                 if ( (now - hash["date"]) <= days )
                     sum + hash["times_accessed"]
@@ -37,10 +47,9 @@ class Questions
             end
             if questionItem["totalAccess"] > 0 then questionItem end
         end
-        return questionsWithTotalAccess.sort { |a,b| -(a["totalAccess"] <=> b["totalAccess"])}
-    end
 
-    private
+        return result
+    end
 
     def fillMatrix()
         questions = self.fetchJson(@questionFilePath)
