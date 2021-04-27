@@ -13,41 +13,54 @@ class Questions
     end
 
     def mostAccessedDisciplines(lastHours = 24)
-        filterQuestionsByDays((lastHours / 24))
+        disciplineOrder = []
+
+        filterQuestionsBySeconds((lastHours * 3600)).each do | question |
+            disciplineHash = {}
+            found = if disciplineHash.include?(question["discipline"]) then true else false end
+
+            if found
+                disciplineOrder[disciplineHash[question["discipline"]]]["totalAccess"] += question["totalAccess"]
+            else
+                disciplineHash[question["discipline"]] = disciplineOrder.length
+                disciplineOrder.append({ "discipline" => question["discipline"], "totalAccess" => question["totalAccess"] })
+            end
+        end
+
+        return disciplineOrder.sort { |a,b| -(a["totalAccess"] <=> b["totalAccess"])}
     end
 
-    def mostAccessedQuestions(timeRange = 'week')        
-        days = case timeRange
+    def mostAccessedQuestions(timeRange = 'week')
+        daysInSeconds = case timeRange
 
         when 'week'
-            7
+            7 * 86400
         when 'month'
-            30
+            30 * 86400
         when 'year'
-            365
+            365 * 86400
         end     
         
-        questionsWithTotalAccess = filterQuestionsByDays(days)
+        questionsWithTotalAccess = filterQuestionsBySeconds(daysInSeconds)
         
         return questionsWithTotalAccess.sort { |a,b| -(a["totalAccess"] <=> b["totalAccess"])}
     end
 
     private
 
-    def filterQuestionsByDays(days)
-        now = DateTime.now
+    def filterQuestionsBySeconds(seconds)
+        now = Time.now
 
         result = @questions.filter_map do |questionItem|
             questionItem["totalAccess"] = questionItem["access"].reduce(0) do |sum,hash|
-                if ( (now - hash["date"]) <= days )
-                    sum + hash["times_accessed"]
+                if ( (now - hash["date"]) <= seconds )
+                    (sum + hash["times_accessed"])
                 else
-                    0
+                    sum
                 end
             end
             if questionItem["totalAccess"] > 0 then questionItem end
         end
-
         return result
     end
 
@@ -57,7 +70,7 @@ class Questions
         @questions = questions.map do |questionItem|
             questionItem["access"] = access.filter_map do |accessItem|
                 if(accessItem["question_id"] == questionItem["id"])
-                    {"date"=>DateTime.parse(accessItem["date"]), "times_accessed"=>accessItem["times_accessed"]}
+                    {"date"=>Time.parse(accessItem["date"]), "times_accessed"=>accessItem["times_accessed"]}
                 end
             end
             questionItem

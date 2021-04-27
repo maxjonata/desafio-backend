@@ -2,13 +2,13 @@ require './Organizer/Questions'
 require 'json'
 
 describe Questions do
-    describe "#mostAccessedQuestions" do
+    describe "Methods" do
 
         before do
             DateOrder = [
-                [true, true, false],
-                [true, false, true],
-                [false, true, true]
+                [true, true, false, true, true, false],
+                [true, false, true, true, false, true],
+                [false, true, true, false, true, true]
             ]
 
             QuestionFile = File.read('./spec/Classes/Questions/question_test.json')
@@ -17,16 +17,22 @@ describe Questions do
             ids = QuestionsJsonHash.map { | hash | hash["id"] }
             access = []
             for i1 in 0..2
-                for i2 in 0..2
+                for i2 in 0..5
                     access.append({
                         "question_id": ids[i1],
                         "date": case i2
                             when 0
-                                if DateOrder[i1][i2] then (DateTime.now() - 2) else (DateTime.now() - 1000) end
+                                if DateOrder[i1][i2] then (Time.now() - (0.5 * 86400)) else (Time.now() - (1000 * 86400)) end
                             when 1
-                                if DateOrder[i1][i2] then (DateTime.now() - 15) else (DateTime.now() - 1000) end
+                                if DateOrder[i1][i2] then (Time.now() - (15 * 86400)) else (Time.now() - (1000 * 86400)) end
                             when 2
-                                if DateOrder[i1][i2] then (DateTime.now() - 100) else (DateTime.now() - 1000) end
+                                if DateOrder[i1][i2] then (Time.now() - (100 * 86400)) else (Time.now() - (1000 * 86400)) end
+                            when 3
+                                if DateOrder[i1][i2] then (Time.now() - (0.5 * 3600)) else (Time.now() - (1000 * 86400)) end
+                            when 4
+                                if DateOrder[i1][i2] then (Time.now() - (6 * 3600)) else (Time.now() - (1000 * 86400)) end
+                            when 5
+                                if DateOrder[i1][i2] then (Time.now() - (13 * 3600)) else (Time.now() - (1000 * 86400)) end
                             end,
                         "times_accessed": rand(10000)
                     })
@@ -41,7 +47,7 @@ describe Questions do
 
         end
 
-        describe "Questions" do
+        describe "#mostAccessedQuestions" do
 
             it "Get questions by week total access in descendant order" do
                 test = @QuestionObj.mostAccessedQuestions('week').map { |hash| hash["totalAccess"]}
@@ -55,6 +61,28 @@ describe Questions do
 
             it "Get questions by year total access in descendant order" do
                 test = @QuestionObj.mostAccessedQuestions('year').map { |hash| hash["totalAccess"]}
+                expect(test).to eq(test.sort.reverse)
+            end
+
+        end
+
+        describe "#mostAccessedDisciplines" do
+
+            it "Get disciplines by 1 hour total access in descendant order" do
+                test = @QuestionObj.mostAccessedDisciplines(1).map { |hash| hash["totalAccess"]}
+                p test
+                expect(test).to eq(test.sort.reverse)
+            end
+
+            it "Get disciplines by 12 hours total access in descendant order" do
+                test = @QuestionObj.mostAccessedDisciplines(12).map { |hash| hash["totalAccess"]}
+                p test
+                expect(test).to eq(test.sort.reverse)
+            end
+
+            it "Get disciplines by 24 hours total access in descendant order" do
+                test = @QuestionObj.mostAccessedDisciplines(24).map { |hash| hash["totalAccess"]}
+                p test
                 expect(test).to eq(test.sort.reverse)
             end
 
