@@ -28,13 +28,26 @@ if __FILE__ == $0
         when "1"
             p list.questions
         when "2"
+            
             p "Time range:"
             p "1 - week"
             p "2 - month"
             p "3 - year"
             p "0 - cancel"
             p "Type your chosen number"
-            p list.mostAccessedQuestions(Integer(gets.chomp))
+
+            case Integer(gets.chomp)
+            when 1
+                p list.mostAccessedQuestions('week')
+            when 2
+                p list.mostAccessedQuestions('month')
+            when 3
+                p list.mostAccessedQuestions('year')
+            when 0
+                next
+            else
+                p "No number found"
+            end
         when "3"
             p "Type a number of hours range before now"
             p list.mostAccessedDisciplines(Integer(gets.chomp))
