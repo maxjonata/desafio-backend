@@ -1,6 +1,5 @@
 require_relative './FileUser.rb'
-require 'date'
-require 'daru'
+require 'time'
 
 class Questions
     attr_reader :questions

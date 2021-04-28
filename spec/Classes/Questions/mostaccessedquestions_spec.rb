@@ -1,5 +1,6 @@
 require './Organizer/Questions'
 require 'json'
+require 'time'
 
 describe Questions do
     describe "Methods" do
