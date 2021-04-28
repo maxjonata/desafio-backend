@@ -3,7 +3,7 @@ require 'date'
 require 'daru'
 
 class Questions
-    
+    attr_reader :questions
     include FileUser
 
     def initialize(questionFilePath, accessFilePath)
